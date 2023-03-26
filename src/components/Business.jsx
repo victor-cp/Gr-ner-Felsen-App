@@ -38,25 +38,41 @@ const FeatureCard = ({ icon, title, content, links, index }) => (
 const Business = () => (
   <>
     <hr className="mb-6"></hr>
-    <section id="skills" className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
-          Skills <br className="sm:block hidden" />
-        </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Things I'm learning every day.
-        </p>
+    <div className={layout.sectionInfo}>
+      <h2 className={styles.heading2}>
+        Grüner Felsen Centre (GFC) <br className="sm:block hidden" />
+      </h2>
 
-        {/* <Button styles={`mt-10`} /> */}
-      </div>
-
+      {/* <Button styles={`mt-10`} /> */}
+    </div>
+    <section id="nosotros" className={layout.section}>
       <div
         // className={`${layout.sectionImg} flex-col`}
-        className={`flex-[2.5] w-full flex flex-row justify-start flex-wrap md:mt-0 mt-10`}
+        className={`flex-[2.5] w-full pb-5 justify-start flex-wrap `}
       >
-        {footerLinks.map((feature, index) => (
+        <p className={`${styles.paragraph2} `}>
+          En GFC nos encotramos enfocados a la elaboración de resportes con
+          contenido de análisis químico y metalográfico de piezas ferrosas y no
+          ferrosas de aceros especiales, piezas de productos de soldaduras y/o
+          investigaciones científicas para mejoras del material con el fin de
+          ser aplicados a piezas de acuerdo a su uso y mayor tiempo de
+          funcionamiento a nivel industrial. Estamos aliados con la fundidora
+          con el propósito de constatar las calidades y asegurar que se da un
+          buen material.
+        </p>
+        <p className={`${styles.paragraph2} pt-2`}>Nuestro objetivo:</p>
+
+        <p className={`${styles.paragraph2} pt-2`}>
+          <ul class="list-disc pl-8">
+            <li>
+              Venta y asesoría directa de productos fundidos para la industria.
+            </li>
+            <li>Realización de reportes químicos y metalográficos.</li>
+          </ul>
+        </p>
+        {/* {footerLinks.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
+        ))} */}
       </div>
     </section>
   </>

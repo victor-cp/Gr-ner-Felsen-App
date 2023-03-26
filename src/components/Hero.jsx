@@ -20,10 +20,10 @@ const Hero = () => {
         </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[50px] text-black ss:leading-[70.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[50px] text-white ss:leading-[70.8px] leading-[75px]">
             Somos
             {/* <br className="sm:block hidden" />{" "} */}
-            <span className="text-gradient"> Grüner Felsen Centre</span>
+            <span className="text-white"> Grüner Felsen Centre</span>
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -37,7 +37,7 @@ const Hero = () => {
           className={`${styles.paragraph} ss:text-[25px] max-w-[500px] mt-10 leading-[36px] `}
         >
           Una empresa de fundición que aplica la{" "}
-          <span className="text-gradient">ingeniería metalúrgica</span> para
+          <span className="text-white">ingeniería metalúrgica</span> para
           fabricar productis de acero nodular el cual es mayormente utilizado en
           piezas de equipos industriales que están expuestos al desgaste por
           impacto.

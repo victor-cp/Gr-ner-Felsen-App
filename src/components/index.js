@@ -10,6 +10,7 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import Slider from "./Slider";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   Footer,
   Testimonials,
   Hero,
+  Slider,
 };

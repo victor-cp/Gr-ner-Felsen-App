@@ -25,10 +25,10 @@ export const navLinks = [
     id: "home",
     title: "Home",
   },
-  // {
-  //   id: "skills",
-  //   title: "Skills",
-  // },
+  {
+    id: "nosotros",
+    title: "Nosotros",
+  },
   {
     id: "nuestros_productos",
     title: "Nuestos productos",
@@ -200,7 +200,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/victor.colquichaguapalacin/",
+    link: "https://www.facebook.com/profile.php?id=100089558298610",
   },
   // {
   //   id: "social-media-3",
