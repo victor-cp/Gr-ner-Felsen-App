@@ -25,18 +25,18 @@ export const navLinks = [
     id: "home",
     title: "Home",
   },
+  // {
+  //   id: "skills",
+  //   title: "Skills",
+  // },
   {
-    id: "skills",
-    title: "Skills",
+    id: "nuestros_productos",
+    title: "Nuestos productos",
   },
-  {
-    id: "projects",
-    title: "Projects",
-  },
-  {
-    id: "more",
-    title: "More",
-  },
+  // {
+  //   id: "more",
+  //   title: "More",
+  // },
 ];
 
 export const features = [
@@ -192,11 +192,11 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/victor.colquichagua/",
-  },
+  // {
+  //   id: "social-media-1",
+  //   icon: instagram,
+  //   link: "https://www.instagram.com/victor.colquichagua/",
+  // },
   {
     id: "social-media-2",
     icon: facebook,
@@ -207,11 +207,11 @@ export const socialMedia = [
   //   icon: twitter,
   //   link: "https://www.twitter.com/",
   // },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/in/victor-colquichagua-palacin-80723b194/",
-  },
+  // {
+  //   id: "social-media-4",
+  //   icon: linkedin,
+  //   link: "https://www.linkedin.com/in/victor-colquichagua-palacin-80723b194/",
+  // },
 ];
 
 export const clients = [

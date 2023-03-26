@@ -18,14 +18,14 @@ const Navbar = () => {
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-white" : "text-dimWhite"
+              active === nav.title ? "text-black" : "text-secondary "
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
-        <li
+        {/* <li
           class={`font-poppins font-normal cursor-pointer text-[16px] text-dimWhite mr-0 ml-10`}
         >
           <a
@@ -35,7 +35,7 @@ const Navbar = () => {
           >
             CV
           </a>
-        </li>
+        </li> */}
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">

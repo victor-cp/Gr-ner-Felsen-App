@@ -4,7 +4,7 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -37,6 +37,8 @@ import programmingLanguages from "./programmingLanguages.svg";
 import librariesFrameworks from "./librariesFrameworks.svg";
 import toolsPlatforms from "./toolsPlatforms.svg";
 import design from "./design.svg";
+
+import landing from "./landing.jpg";
 
 export {
   airbnb,
@@ -77,4 +79,5 @@ export {
   librariesFrameworks,
   toolsPlatforms,
   design,
+  landing,
 };

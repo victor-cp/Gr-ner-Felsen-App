@@ -4,8 +4,8 @@ import styles, { layout } from "../style";
 const Billing = () => (
   <>
     <hr className="mb-6"></hr>
-    <h1 id="projects" className={styles.heading2}>
-      Projects
+    <h1 id="nuestros_productos" className={styles.heading2}>
+      Nuestros Productos
     </h1>
     <section className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
@@ -14,45 +14,20 @@ const Billing = () => (
 
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          GO-JOB <br className="sm:block hidden" />
+          Pesas Rusas <br className="sm:block hidden" />
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-3`}>
-          Una página web escalable (Filtros en el back) capaz de realizar
-          publicaciones de servicios, postular a servicios como profesional,
-          realizar transacciones (Stripe), guardar imágenes (Cloudinary),
-          loggearte (Auth0). Entre los roles puedes ser usuario comun,
-          profesional o admin. Mostrando componentes distintos para cada uno.
-          Proyecto final SoyHenry. V.Colquichagua - L.Moyano - F.Toledo - M.Baez
-          - J.Flores
+          Aquí encontrarás una gran variedad de pesas rusas de alta calidad,
+          disponibles en diferentes tamaños y pesos para adaptarse a tus
+          necesidades y objetivos de entrenamiento.
         </p>
 
-        <div
-          className={`${styles.paragraph}  flex flex-row flex-wrap sm:mt-3 mt-6`}
-        >
-          <h2>PERN Tech - Cloudinary - Stripe - Tailwind - Git</h2>
-        </div>
-        <div
-          className={`${styles.paragraph}  flex flex-row flex-wrap sm:mt-1 mt-6`}
-        >
-          <h2>Auth0 - jwt - Formik/Yup - Redux - Sequelize</h2>
-        </div>
-        <div className="sm:mt-2 flex flex-row align-items-rigth ">
-          <a
-            href="https://github.com/victor-cp/goJob2"
-            target="_blank"
-            className="mr-5 github"
-            // className={`${styles.github} mr-5`}
-          >
-            <img src={github} className="w-10 relative z-[5]" />
-          </a>
-          {/* <a
-            href="https://videogames-website-pern-crud-testing-ot7p.vercel.app/"
-            target="_blank"
-            className="github"
-          >
-            <img src={website} className="w-10 relative z-[5]" />
-          </a> */}
-        </div>
+        <p className={`${styles.paragraph} max-w-[470px] mt-3`}>
+          Tenemos de diferentes tamaños y pesos, desde los 4kg hasta los 50kg.
+          Nuestro equipo de expertos en fitness ha seleccionado cuidadosamente
+          cada una de las pesas rusas que ofrecemos, asegurándonos de que
+          cumplan con los más altos estándares de calidad y durabilidad.
+        </p>
       </div>
     </section>
   </>

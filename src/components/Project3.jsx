@@ -17,33 +17,16 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        DJANGO Rest Framework
+        Discos
         <br className="sm:block hidden" />
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-3`}>
-        A crud implemented with react (front), django rest framework (back),
-        postgres (db).
+        Ofrecemos discos de pesas de gimnasio con diferentes diámetros y
+        espesores para que puedas personalizar tu entrenamiento. Explora nuestra
+        selección de discos de pesas de gimnasio y comienza a transformar tu
+        entrenamiento físico hoy mismo. Haz tu pedido ahora y disfruta de envío
+        rápido y seguro a cualquier parte del país!
       </p>
-
-      <div
-        className={`${styles.paragraph}  flex flex-row flex-wrap sm:mt-3 mt-6`}
-      >
-        <h2>React - Postgres - django RF</h2>
-      </div>
-      <div
-        className={`${styles.paragraph}  flex flex-row flex-wrap sm:mt-1 mt-6`}
-      >
-        <h2>Bootwswatch</h2>
-      </div>
-      <div className="sm:mt-2 flex flex-row align-items-rigth ">
-        <a
-          href="https://github.com/victor-cp/djangorf-react-postgres"
-          target="_blank"
-          className="mr-5 github"
-        >
-          <img src={github} className="w-10 relative z-[5]" />
-        </a>
-      </div>
     </div>
   </section>
 );

@@ -20,11 +20,10 @@ const Hero = () => {
         </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[50px] text-white ss:leading-[70.8px] leading-[75px]">
-            Hi I'm
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[50px] text-black ss:leading-[70.8px] leading-[75px]">
+            Somos
             {/* <br className="sm:block hidden" />{" "} */}
-            <span className="text-gradient"> Victor Colquichagua</span>. A
-            passionate about many things.
+            <span className="text-gradient"> Grüner Felsen Centre</span>
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -35,17 +34,19 @@ const Hero = () => {
           Payment Method.
         </h1> */}
         <p
-          className={`${styles.paragraph} ss:text-[32px] max-w-[500px] mt-10 leading-[36px] `}
+          className={`${styles.paragraph} ss:text-[25px] max-w-[500px] mt-10 leading-[36px] `}
         >
-          I'm a <span className="text-gradient">mechatronic engineer</span> with
-          skills in <span className="text-gradient">full stack developer</span>,
-          machine learning.
+          Una empresa de fundición que aplica la{" "}
+          <span className="text-gradient">ingeniería metalúrgica</span> para
+          fabricar productis de acero nodular el cual es mayormente utilizado en
+          piezas de equipos industriales que están expuestos al desgaste por
+          impacto.
         </p>
       </div>
 
-      <div className={` flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+      {/* <div className={` flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src={profile} alt="billing" className="w-[90%] h-[100%]" />
-      </div>
+      </div> */}
 
       {/* <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
