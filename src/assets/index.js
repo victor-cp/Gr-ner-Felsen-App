@@ -39,6 +39,9 @@ import toolsPlatforms from "./toolsPlatforms.svg";
 import design from "./design.svg";
 
 import landing from "./landing.jpg";
+import discos from "./discos.png";
+import mancuernas from "./mancuernas.png";
+import pesas_rusas from "./pesas_rusas.png";
 
 export {
   airbnb,
@@ -80,4 +83,7 @@ export {
   toolsPlatforms,
   design,
   landing,
+  discos,
+  mancuernas,
+  pesas_rusas,
 };

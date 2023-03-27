@@ -37,43 +37,46 @@ const FeatureCard = ({ icon, title, content, links, index }) => (
 
 const Business = () => (
   <>
-    <hr className="mb-6"></hr>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Grüner Felsen Centre (GFC) <br className="sm:block hidden" />
-      </h2>
+    <section id="nosotros">
+      <hr className="mb-6"></hr>
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>
+          Grüner Felsen Centre (GFC) <br className="sm:block hidden" />
+        </h2>
 
-      {/* <Button styles={`mt-10`} /> */}
-    </div>
-    <section id="nosotros" className={layout.section}>
-      <div
-        // className={`${layout.sectionImg} flex-col`}
-        className={`flex-[2.5] w-full pb-5 justify-start flex-wrap `}
-      >
-        <p className={`${styles.paragraph2} `}>
-          En GFC nos encotramos enfocados a la elaboración de resportes con
-          contenido de análisis químico y metalográfico de piezas ferrosas y no
-          ferrosas de aceros especiales, piezas de productos de soldaduras y/o
-          investigaciones científicas para mejoras del material con el fin de
-          ser aplicados a piezas de acuerdo a su uso y mayor tiempo de
-          funcionamiento a nivel industrial. Estamos aliados con la fundidora
-          con el propósito de constatar las calidades y asegurar que se da un
-          buen material.
-        </p>
-        <p className={`${styles.paragraph2} pt-2`}>Nuestro objetivo:</p>
+        {/* <Button styles={`mt-10`} /> */}
+      </div>
+      <section className={layout.section}>
+        <div
+          // className={`${layout.sectionImg} flex-col`}
+          className={`flex-[2.5] w-full pb-5 pt-8 justify-start  leading-[30.8px] flex-wrap `}
+        >
+          <p className={`${styles.paragraph2} `}>
+            En GFC nos encotramos enfocados a la elaboración de resportes con
+            contenido de análisis químico y metalográfico de piezas ferrosas y
+            no ferrosas de aceros especiales, piezas de productos de soldaduras
+            y/o investigaciones científicas para mejoras del material con el fin
+            de ser aplicados a piezas de acuerdo a su uso y mayor tiempo de
+            funcionamiento a nivel industrial. Estamos aliados con la fundidora
+            con el propósito de constatar las calidades y asegurar que se da un
+            buen material.
+          </p>
+          <p className={`${styles.paragraph2} pt-2`}>Nuestro objetivo:</p>
 
-        <p className={`${styles.paragraph2} pt-2`}>
-          <ul class="list-disc pl-8">
-            <li>
-              Venta y asesoría directa de productos fundidos para la industria.
-            </li>
-            <li>Realización de reportes químicos y metalográficos.</li>
-          </ul>
-        </p>
-        {/* {footerLinks.map((feature, index) => (
+          <p className={`${styles.paragraph2} pt-2`}>
+            <ul class="list-disc pl-8">
+              <li>
+                Venta y asesoría directa de productos fundidos para la
+                industria.
+              </li>
+              <li>Realización de reportes químicos y metalográficos.</li>
+            </ul>
+          </p>
+          {/* {footerLinks.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))} */}
-      </div>
+        </div>
+      </section>
     </section>
   </>
 );

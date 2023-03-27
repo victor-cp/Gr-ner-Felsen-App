@@ -1,4 +1,4 @@
-import { project1, github, website } from "../assets";
+import { project1, github, website, mancuernas } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -20,12 +20,13 @@ const Project0 = () => (
         tu programa de entrenamiento.
       </p>
     </div>
-
-    <div className={layout.sectionImg}>
+    <div
+      className={`flex-1 grid justify-items-end md:mr-10 mr-0 md:mt-0 mt-10 relative`}
+    >
       <img
-        src={project1}
+        src={mancuernas}
         alt="billing"
-        className="w-[100%] h-[auto] relative z-[5]"
+        className="w-[80%] h-[auto] relative z-[5]"
       />
     </div>
   </section>

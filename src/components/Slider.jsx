@@ -1,24 +1,26 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
+
+import { landing } from "../assets";
 
 const Slider = () => {
   const slides = [
     {
-      url: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80",
+      url: "https://firebasestorage.googleapis.com/v0/b/database-91457.appspot.com/o/portada%20Gr%C3%BCner%20Felsen%20centre.jpg?alt=media&token=544a3414-392c-475a-9d23-a9e6f868003d",
     },
     {
-      url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80",
+      url: "https://firebasestorage.googleapis.com/v0/b/database-91457.appspot.com/o/DALL%C2%B7E%202023-03-26%2017.48.34%20-%20complete.png?alt=media&token=96e3d5c4-22f2-411a-8c90-198e47e14325",
     },
     {
-      url: "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80",
+      url: "https://firebasestorage.googleapis.com/v0/b/database-91457.appspot.com/o/DALL%C2%B7E%202023-03-26%2023.11.46%20-%20metalurgicaly%20industry.png?alt=media&token=8997ddda-9937-4e56-b9df-f5780c62b177",
     },
 
     {
-      url: "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80",
+      url: "https://firebasestorage.googleapis.com/v0/b/database-91457.appspot.com/o/DALL%C2%B7E%202023-03-26%2023.24.04%20-%20complete2.png?alt=media&token=8da8dacd-cccf-4926-b38b-a3ca3346b28b",
     },
     {
-      url: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80",
+      url: "https://firebasestorage.googleapis.com/v0/b/database-91457.appspot.com/o/DALL%C2%B7E%202023-03-26%2023.32.07%20-%20complete%20with%20minerals.png?alt=media&token=bdd75ba0-9714-4420-8a69-f9bf7c9139eb",
     },
   ];
 
@@ -39,6 +41,14 @@ const Slider = () => {
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 7500);
+
+    return () => clearInterval(interval);
+  }, [currentIndex]);
 
   return (
     <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">
